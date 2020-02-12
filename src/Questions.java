@@ -70,11 +70,24 @@ public class Questions {
 			}
 		}
 	
+		
+		
+		if (answer1.equalsIgnoreCase("animal") && answer2.equalsIgnoreCase("yes")) 
+		{
+			System.out.println("elephant");
+		}
+	
+		
+		if (answer1.equalsIgnoreCase("vegetable") && answer2.equalsIgnoreCase("yes")) 
+		{
+			System.out.println("pumpkin");
+		}
 	
 	
-	
-	
-	
+		if (answer1.equalsIgnoreCase("mineral") && answer2.equalsIgnoreCase("yes")) 
+		{
+			System.out.println("quartz");
+		}
 	
 	
 	}
